@@ -8,6 +8,7 @@ public class Card {
     public Card(String suit, String rank) {
         this.suit = suit;
         this.rank = rank;
+        isFaceDown = true;
     }
 
     public Card(String suit, String rank, boolean isFaceDown) {

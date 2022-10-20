@@ -1,16 +1,13 @@
 package blackjack;
 
 public class Application {
+
     public static void main(String[] args) {
-
-        Deck PokerDeck = new Deck();
-
+        UserInterface myUI = new UserInterface();
+        myUI.makeFirstDeck();
 
     }
 
-    public Deck makeDeck() {
-        Card newCard = new Card();
-        String cardName = ;
-        Deck.addCard(cardName)
-    }
+
+
 }
